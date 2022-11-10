@@ -1,0 +1,39 @@
+{
+  "name": "book_library",
+  "version": "1.0.0",
+  "description": "this is a node.js app used to store books, just as the name implies, it is simply a book library",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ericwiz/book_library.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoDB",
+    "javascript",
+    "book",
+    "library"
+  ],
+  "author": "Ericwiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ericwiz/book_library/issues"
+  },
+  "homepage": "https://github.com/Ericwiz/book_library#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-generator": "^4.16.1",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
